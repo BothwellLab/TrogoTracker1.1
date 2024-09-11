@@ -5,7 +5,7 @@ javaaddpath /Applications/MATLAB_R2023a.app/java/jar/ij.jar
 ImageJ;
 
 % Define a sheet to save to here
-output_file = "/Users/allisonlam/Downloads/nut_test.xls";
+output_file = "";
 
 trogo_table = table('Size',[0 2],'VariableTypes',{'string','double'});
 trogo_table.Properties.VariableNames = ["Filename", "% Trogo"];
